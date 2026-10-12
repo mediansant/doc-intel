@@ -1,0 +1,17 @@
+{
+  "governing_law": "Pennsylvania",
+  "governing_law_evidence": "This Agreement shall be governed by and interpreted under the laws of the Commonwealth of Pennsylvania without regard to its conflicts of law provisions.",
+  "parties": [
+    "VerticalNet, Inc.",
+    "LeadersOnline, Inc."
+  ],
+  "parties_evidence": "This Co-Branding Agreement (this \"Agreement\") dated March 15, 2000 (the \"Effective Date\") is entered into between VerticalNet, Inc., a Pennsylvania corporation ... and LeadersOnline, Inc. a Delaware corporation ... (each a \"Party\" and together the \"Parties\").",
+  "agreement_date": "2000-03-15",
+  "agreement_date_evidence": "This Co-Branding Agreement (this \"Agreement\") dated March 15, 2000 (the \"Effective Date\").",
+  "renewal_term": "LeadersOnline shall have the option, subject to VerticalNet's approval exercised in its sole and absolute discretion, to extend the Term of this Agreement for an additional 12 months (a \"Renewal Term\")...",
+  "renewal_term_evidence": "LeadersOnline shall have the option, subject to VerticalNet's approval exercised in its sole and absolute discretion, to extend the Term of this Agreement for an additional 12 months (a \"Renewal Term\") on such terms and conditions as may be mutually agreed upon by the Parties.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

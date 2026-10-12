@@ -1,0 +1,17 @@
+{
+  "governing_law": "New York",
+  "governing_law_evidence": "The validity, construction and performance of this Agreement shall be governed by the laws of the State of New York.",
+  "parties": [
+    "Lucent Technologies Inc.",
+    "mPhase Technologies Inc."
+  ],
+  "parties_evidence": "This Agreement is made this 21st day of January 2003 by and between Lucent Technologies Inc., a Delaware corporation having a principal place of business at 600 Mountain Avenue, Murray Hill, New Jersey 07974 (\"Lucent\") and mPhase Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue, Norwalk, Connecticut 068545 (\"mPhase\").",
+  "agreement_date": "2003-01-21",
+  "agreement_date_evidence": "This Agreement is made this 21st day of January 2003.",
+  "renewal_term": "mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent shall not be unreasonably withheld.",
+  "renewal_term_evidence": "mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent shall not be unreasonably withheld.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

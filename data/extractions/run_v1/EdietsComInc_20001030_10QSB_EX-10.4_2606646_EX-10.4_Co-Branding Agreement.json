@@ -1,0 +1,17 @@
+{
+  "governing_law": "California",
+  "governing_law_evidence": "This Agreement shall be interpreted and enforced in accordance with the laws of the State of California as applied to agreements made, entered into and performed entirely in California by California residents, notwithstanding the actual residence of the parties, without giving effect to any choice of laws of California that would require the application of the laws of a state other than California.",
+  "parties": [
+    "WOMEN.COM NETWORKS, INC.",
+    "EDIETS.COM, INC."
+  ],
+  "parties_evidence": "by and between WOMEN.COM NETWORKS, INC., a Delaware corporation...and EDIETS.COM, INC., a Delaware corporation...",
+  "agreement_date": "2000-05-22",
+  "agreement_date_evidence": "is made as of May 22, 2000 (the \"Effective Date\")",
+  "renewal_term": "This agreement shall automatically renew for additional successive terms of twelve (12) months each at the end of the Initial Term (\"Renewal Terms\")...",
+  "renewal_term_evidence": "This agreement shall automatically renew for additional successive terms of twelve (12) months each at the end of the Initial Term (\"Renewal Terms\")...",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

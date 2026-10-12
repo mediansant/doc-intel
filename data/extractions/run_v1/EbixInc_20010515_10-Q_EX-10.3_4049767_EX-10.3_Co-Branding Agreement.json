@@ -1,0 +1,17 @@
+{
+  "governing_law": "Illinois",
+  "governing_law_evidence": "This Agreement will be governed by the laws of the state where a suit is properly filed under the terms of this paragraph, being either Illinois or New York.",
+  "parties": [
+    "About.com, Inc.",
+    "ebix.com, Inc."
+  ],
+  "parties_evidence": "is by and between About.com, Inc. (\"About\"), a Delaware corporation, located at 1440 Broadway, 19th Floor, New York, NY 10018 and ebix.com, Inc. (\"ebix\"), a Delaware corporation, located at 1900 E.Golf Road, Schaumberg, IL 60173",
+  "agreement_date": "2001-01-19",
+  "agreement_date_evidence": "dated this 19th day of January, 2001 (the \"Effective Date\")",
+  "renewal_term": null,
+  "renewal_term_evidence": null,
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

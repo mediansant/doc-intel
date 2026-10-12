@@ -1,0 +1,17 @@
+{
+  "governing_law": "California",
+  "governing_law_evidence": "This Agreement will be governed and construed in accordance with the laws of the State of California without giving effect to conflict of laws principles.",
+  "parties": [
+    "I-ESCROW, INC.",
+    "2THEMART.COM, INC."
+  ],
+  "parties_evidence": "by and between I-ESCROW, INC., ... and 2THEMART.COM, INC.",
+  "agreement_date": "1999-06-21",
+  "agreement_date_evidence": "is made as of June 21, 1999 (the \"Effective Date\")",
+  "renewal_term": "This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement.",
+  "renewal_term_evidence": "This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

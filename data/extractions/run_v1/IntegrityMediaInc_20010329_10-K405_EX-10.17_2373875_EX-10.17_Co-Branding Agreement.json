@@ -1,0 +1,17 @@
+{
+  "governing_law": "Tennessee",
+  "governing_law_evidence": "the validity, interpretation and legal effect of this Agreement will be governed by the laws of the State of Tennessee applicable to contracts entered into and performed entirely within the State of Tennessee.",
+  "parties": [
+    "INTEGRITY INCORPORATED",
+    "TIME LIFE, INC."
+  ],
+  "parties_evidence": "by and between INTEGRITY INCORPORATED, a Delaware corporation and TIME LIFE, INC., a Delaware corporation d/b/a Time Life Music.",
+  "agreement_date": "2000-01-10",
+  "agreement_date_evidence": "entered into this the 10th day of January 2000",
+  "renewal_term": "the parties must mutually agree in writing to extend the term for additional periods of time.",
+  "renewal_term_evidence": "thereafter, the parties must mutually agree in writing to extend the term for additional periods of time.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

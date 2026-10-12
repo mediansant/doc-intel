@@ -1,0 +1,17 @@
+{
+  "governing_law": "Ontario",
+  "governing_law_evidence": "This Agreement shall be governed by and interpreted and enforced in accordance with the laws of the Province of Ontario and the Parties agree to abide by the jurisdiction of the Courts of Ontario.",
+  "parties": [
+    "MEDIALINX INTERACTIVE, L.P.",
+    "HEALTHCENTRAL.COM INC."
+  ],
+  "parties_evidence": "BETWEEN: MEDIALINX INTERACTIVE, L.P., represented herein by its general partner MediaLinx Interactive Inc. a corporation incorporated under the laws of the Province of Ontario ... - and - HEALTHCENTRAL.COM INC. a corporation incorporated under the laws of the state of California ... (both MLX and HCI to be collectively referred to as the \"Parties\")",
+  "agreement_date": "1999-06-30",
+  "agreement_date_evidence": "THIS AGREEMENT made as of the 30th day of June 1999",
+  "renewal_term": null,
+  "renewal_term_evidence": null,
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

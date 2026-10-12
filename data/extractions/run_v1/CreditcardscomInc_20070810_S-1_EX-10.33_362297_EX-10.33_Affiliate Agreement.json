@@ -1,0 +1,17 @@
+{
+  "governing_law": "Delaware",
+  "governing_law_evidence": "This Agreement will be governed in all respects by the laws of the State of Delaware, including its conflict with law provisions.",
+  "parties": [
+    "Chase Bank USA, N.A.",
+    "you as an \"Affiliate\""
+  ],
+  "parties_evidence": "THIS AGREEMENT sets forth the terms and conditions agreed to between Chase Bank USA, N.A. (?Chase?) and you as an \"Affiliate\" in the Chase Affiliate Program (the \"Affiliate Program\").",
+  "agreement_date": "2007-04-06",
+  "agreement_date_evidence": "Last Updated: April 6, 2007",
+  "renewal_term": null,
+  "renewal_term_evidence": null,
+  "cap_on_liability": true,
+  "cap_on_liability_evidence": "Chase shall have no liability for any indirect, incidental, special or consequential damages or any loss of revenue or profits arising under or with respect to this Agreement or the Affiliate Program, regardless of whether Chase has been advised of the possibility of such damages. Further, Chase's aggregate liability arising under or with respect to this Agreement or the Affiliate Program shall in no event exceed the total Commissions paid or payable by Chase to Affiliate under this Agreement.",
+  "non_compete": false,
+  "non_compete_evidence": null
+}

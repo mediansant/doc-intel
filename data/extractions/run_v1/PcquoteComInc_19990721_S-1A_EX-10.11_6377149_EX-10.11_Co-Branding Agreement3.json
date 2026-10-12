@@ -1,0 +1,17 @@
+{
+  "governing_law": null,
+  "governing_law_evidence": null,
+  "parties": [
+    "PC QUOTE, INC.",
+    "A.B. Watley, Inc."
+  ],
+  "parties_evidence": "by and between PC QUOTE, INC., with its principal place of business at 300 South Wacker Drive, Chicago, Illinois 60605 (\"PCQ\") and A.B. Watley, Inc., with its principal place of business at 33 West 17th Street, New York, New York 10011 (\"ABW\").",
+  "agreement_date": "1998-02-23",
+  "agreement_date_evidence": "effective for all purposes and in all respects as of the 23rd day of February, 1998",
+  "renewal_term": null,
+  "renewal_term_evidence": null,
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

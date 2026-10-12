@@ -1,0 +1,17 @@
+{
+  "governing_law": "California",
+  "governing_law_evidence": "The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider.",
+  "parties": [
+    "At Home Corporation",
+    "e-centives, Inc."
+  ],
+  "parties_evidence": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\"), by and between the At Home Corporation (\"Excite@Home\" or \"Excite\"), located at 450 Broadway, Redwood City, California 94063, and e-centives, Inc., (\"Application Provider\" or \"e-centives\"), a Delaware corporation, located at 6903 Rockledge Drive, Suite 1200, Bethesda, MD 20817.",
+  "agreement_date": "2000-02-16",
+  "agreement_date_evidence": "This agreement (\"Agreement\") is entered into as of the 16th day of February, 2000 (\"Effective Date\")",
+  "renewal_term": null,
+  "renewal_term_evidence": null,
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}

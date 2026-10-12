@@ -1,0 +1,18 @@
+
+# Local / generated
+.env
+.pytest_cache/
+.DS_Store
+
+# Large/derived data (CUAD is public; DB is rebuilt by backfill/score)
+data/raw/
+data/*.duckdb*
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/

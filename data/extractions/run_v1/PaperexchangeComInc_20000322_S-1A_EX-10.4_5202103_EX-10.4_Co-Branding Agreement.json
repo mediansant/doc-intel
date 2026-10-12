@@ -1,0 +1,17 @@
+{
+  "governing_law": "Pennsylvania",
+  "governing_law_evidence": "This Agreement shall be governed by and interpreted under the laws of the Commonwealth of Pennsylvania without regard to its conflicts of law provisions.",
+  "parties": [
+    "VerticalNet, Inc.",
+    "PaperExchange.com, LLC"
+  ],
+  "parties_evidence": "This Co-Branding Agreement (this \"Agreement\") dated September 30, 1999 (the \"Effective Date\") is entered into between VerticalNet, Inc., a Pennsylvania corporation... and PaperExchange.com, LLC, a Delaware limited liability company...",
+  "agreement_date": "1999-09-30",
+  "agreement_date_evidence": "This Co-Branding Agreement (this \"Agreement\") dated September 30, 1999 (the \"Effective Date\").",
+  "renewal_term": "This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement.",
+  "renewal_term_evidence": "This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement.",
+  "cap_on_liability": true,
+  "cap_on_liability_evidence": "Except in connection with a breach by either party of Article 10, the indemnification obligations of PaperExchange under Sections 12.4(c) [Indemnification by PaperExchange] and the indemnification obligations of VerticalNet under Section 12.5(c) [Indemnification by VerticalNet], each party's liability for damages hereunder shall not exceed $1,000,000.",
+  "non_compete": true,
+  "non_compete_evidence": "During the Term, VerticalNet shall not... (a) act as an advertising agent or representative for any PaperExchange Competitor and (b) place any advertisements on Pulp and Paper Online from any PaperExchange Competitor."
+}

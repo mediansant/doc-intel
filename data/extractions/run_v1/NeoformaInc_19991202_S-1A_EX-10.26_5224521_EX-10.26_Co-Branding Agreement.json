@@ -1,0 +1,17 @@
+{
+  "governing_law": "Pennsylvania",
+  "governing_law_evidence": "This Agreement shall be governed by and interpreted under the laws of the Commonwealth of Pennsylvania without regard to its conflicts of law provisions.",
+  "parties": [
+    "VerticalNet, Inc.",
+    "Neoforma.com, Inc."
+  ],
+  "parties_evidence": "This Co-Branding Agreement (this \"Agreement\") by and between VerticalNet, Inc., a Pennsylvania corporation having a principal place of business at 700 Dresher Road, Suite 100, Horsham, Pennsylvania, PA 19044 (\"VerticalNet\"), and Neoforma.com, Inc., a Delaware corporation having a principal place of business at 3255-7 Scott Boulevard, Santa Clara, CA 95054 (\"Neoforma\"), is dated as of November 19, 1999 (the \"Effective Date\").",
+  "agreement_date": "1999-11-19",
+  "agreement_date_evidence": "is dated as of November 19, 1999 (the \"Effective Date\").",
+  "renewal_term": "This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+  "renewal_term_evidence": "This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a \"Renewal Term\"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a \"Termination Notice\").",
+  "cap_on_liability": true,
+  "cap_on_liability_evidence": "each Party's liability for damages hereunder shall not exceed $1,000,000.",
+  "non_compete": false,
+  "non_compete_evidence": null
+}

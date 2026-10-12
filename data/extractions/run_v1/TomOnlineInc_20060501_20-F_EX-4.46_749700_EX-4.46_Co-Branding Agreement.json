@@ -1,0 +1,20 @@
+{
+  "governing_law": "England and Wales",
+  "governing_law_evidence": "This Agreement will be governed by and construed in accordance with the laws of England and Wales, without regard to conflict of laws principles.",
+  "parties": [
+    "Skype Communications, S.A.",
+    "Skype Technologies, S.A.",
+    "TOM Online (BVI) Limited",
+    "TOM Online Inc.",
+    "Tel-Online Limited"
+  ],
+  "parties_evidence": "by and among (a) Skype Communications, S.A. (\"Skype\"), a limited company (société anonyme) incorporated in Luxembourg,... (b) Skype Technologies, S.A. (\"Skype Holding\"), a limited company (société anonyme) incorporated in Luxembourg,... (c) TOM Online (BVI) Limited (\"Online BVI\"), a company incorporated in the British Virgin Islands... (d) TOM Online Inc. (\"Tom Holding\"), a company incorporated in the Cayman Islands... (e) Tel-Online Limited (\"Company\"), a company incorporated in the Cayman Islands...",
+  "agreement_date": "2005-08-22",
+  "agreement_date_evidence": "entered into on the 22 nd day of August 2005 and effective as of the 22 nd day of August 2005 (\"Effective Date\")",
+  "renewal_term": "this Agreement shall automatically continue following the Initial Term, for an additional period of three (3) years",
+  "renewal_term_evidence": "This Agreement shall automatically continue following the Initial Term, for an additional period of three (3) years, unless a party to this Agreement provides written notice of termination to the other parties at least sixty (60) days prior to the expiration of the Initial Term or this Agreement.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": true,
+  "non_compete_evidence": "Each Party agrees that, for a period of five years (\"Non-Competition Period\") from the Effective Date (\"End Date\"), no Party, nor any of their respective Affiliates, will enter into an agreement with any third party, or otherwise carry on any business, directly or indirectly, which is focused on, and targets, primarily Consumers within the PRC."
+}

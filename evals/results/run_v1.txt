@@ -1,0 +1,361 @@
+
+=== run_v1: 20 of 20 contracts scored ===
+| Field            |   TP |   FP |   FN |   TN |   Support |   Precision |   Recall |
+|:-----------------|-----:|-----:|-----:|-----:|----------:|------------:|---------:|
+| agreement_date   |   18 |    2 |    1 |    0 |        19 |        0.9  |     0.95 |
+| governing_law    |   18 |    1 |    1 |    1 |        19 |        0.95 |     0.95 |
+| cap_on_liability |    4 |    0 |   14 |    2 |        18 |        1    |     0.22 |
+| non_compete      |    4 |    1 |    8 |    7 |        12 |        0.8  |     0.33 |
+| parties          |   44 |    1 |   47 |    0 |        91 |        0.98 |     0.48 |
+| renewal_term     |    1 |   12 |   10 |    7 |        11 |        0.08 |     0.09 |
+(parties is scored per party; a wrong value counts as FP and FN)
+
+=== Failure list ===
+
+--- agreement_date (2) ---
+File: TheglobeComInc_19990503_S-1A_EX-10.20_5416126_EX-10.20_Co-Branding Agreement  [FN+FP]
+  Extracted : datetime.date(1999, 3, 1)
+  Truth     : '03/[]/1999'
+  Raw ext   : '1999-03-01'
+  Raw truth : '03/[]/1999'
+  Evidence  : This Co-Branding Agreement (the "Agreement") is entered into as of March ___, 1999 (the "Effective Date").
+File: PaperexchangeComInc_20000322_S-1A_EX-10.4_5202103_EX-10.4_Co-Branding Agreement  [FP]
+  Extracted : datetime.date(1999, 9, 30)
+  Truth     : None
+  Raw ext   : '1999-09-30'
+  Raw truth : nan
+  Evidence  : This Co-Branding Agreement (this "Agreement") dated September 30, 1999 (the "Effective Date").
+
+--- governing_law (1) ---
+File: EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement  [FN+FP]
+  Extracted : frozenset({'illinois'})
+  Truth     : frozenset({'illinois', 'new york'})
+  Raw ext   : 'Illinois'
+  Raw truth : 'Illinois; New York'
+  Evidence  : This Agreement will be governed by the laws of the state where a suit is properly filed under the terms of this paragraph, being either Illinois or New York.
+
+--- cap_on_liability (14) ---
+File: EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: 2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: TheglobeComInc_19990503_S-1A_EX-10.20_5416126_EX-10.20_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+
+--- non_compete (9) ---
+File: StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement  [FP]
+  Extracted : True
+  Truth     : False
+  Raw ext   : True
+  Raw truth : 'No'
+  Evidence  : The Company shall not enter into any agreement or arrangement, including without limitation any sale, license, service agreement, co-branding agreement, co-marketing agreement or linking agreement with any provider of manifesting or shipping services through non-carrier retail shipping locations.
+File: 2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+File: NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement  [FN]
+  Extracted : False
+  Truth     : True
+  Raw ext   : False
+  Raw truth : 'Yes'
+  Evidence  : None
+
+--- parties (18) ---
+File: StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'ishipcom inc', 'mail boxes etc usa inc'})
+  Truth     : frozenset({'company', 'mbe', 'mail boxes etc usa inc', 'mailboxes etc usa inc', 'ishipcom inc'})
+  Raw ext   : ['iShip.com, Inc.', 'Mail Boxes Etc. USA, Inc.']
+  Raw truth : "['MBE', 'iShip.com, Inc.', 'MAILBOXES ETC. USA, INC.', 'Mail                                                         ------- Boxes Etc. USA, Inc.', 'Company']"
+  Evidence  : This Manifest System Services and Co-Branding Agreement ("Agreement") is made and entered into as of April 27, 1999 (the "Effective Date"), by and between iShip.com, Inc., a Washington corporation (the "Company"), and Mail Boxes Etc. USA, Inc., a California corporation ("MBE").
+File: EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'aboutcom inc', 'ebixcom inc'})
+  Truth     : frozenset({'ebix', 'ebixcom inc', 'aboutcom inc', 'about'})
+  Raw ext   : ['About.com, Inc.', 'ebix.com, Inc.']
+  Raw truth : "['ebix.com, Inc.', 'ebix', 'About', 'About.com, Inc.']"
+  Evidence  : is by and between About.com, Inc. ("About"), a Delaware corporation, located at 1440 Broadway, 19th Floor, New York, NY 10018 and ebix.com, Inc. ("ebix"), a Delaware corporation, located at 1900 E.Golf Road, Schaumberg, IL 60173
+File: 2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement  [FN+TP]
+  Extracted : frozenset({'iescrow inc', '2themartcom inc'})
+  Truth     : frozenset({'iescrow', '2themart', 'iescrow inc', '2themartcom inc'})
+  Raw ext   : ['I-ESCROW, INC.', '2THEMART.COM, INC.']
+  Raw truth : "['2THEMART.COM, INC.', '2TheMart', 'i-Escrow', 'I-ESCROW, INC.']"
+  Evidence  : by and between I-ESCROW, INC., ... and 2THEMART.COM, INC.
+File: IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'time life inc', 'integrity incorporated'})
+  Truth     : frozenset({'integrity', 'time life inc', 'integrity incorporated', 'dba time life music', 'tl'})
+  Raw ext   : ['INTEGRITY INCORPORATED', 'TIME LIFE, INC.']
+  Raw truth : "['d/b/a Time Life Music', 'Integrity', 'TL', 'TIME LIFE, INC.', 'INTEGRITY INCORPORATED']"
+  Evidence  : by and between INTEGRITY INCORPORATED, a Delaware corporation and TIME LIFE, INC., a Delaware corporation d/b/a Time Life Music.
+File: ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'impresse corporation', 'verticalnet inc'})
+  Truth     : frozenset({'impresse corporation', 'verticalnet inc', 'verticalnet', 'impresse'})
+  Raw ext   : ['VerticalNet, Inc.', 'Impresse Corporation']
+  Raw truth : "['Impresse Corporation', 'VerticalNet, Inc.', 'VerticalNet', 'Impresse']"
+  Evidence  : This Co-Branding Agreement (this "Agreement") dated March 3, 2000 (the "Effective Date") is entered into between VerticalNet, Inc., a Pennsylvania corporation... and Impresse Corporation, a California Corporation...
+File: RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement  [FN+FP+TP]
+  Extracted : frozenset({'nettaxi online communities inc', 'solutions media inc'})
+  Truth     : frozenset({'nettaxi online communities inc', 'spinrecordscom or client', 'solutions media inc dba spinrecordscom', 'nettaxi'})
+  Raw ext   : ['NETTAXI Online Communities, Inc.', 'Solutions Media, Inc.']
+  Raw truth : '[\'NETTAXI\', \'"SpinRecords.com"  or  "Client"\', \'Solutions  Media,  Inc.,  dba SpinRecords.com\', \'NETTAXI Online Communities, Inc.\']'
+  Evidence  : This Agreement is made and entered into as of Nov 5, 1999, (the "Effective Date") by and between NETTAXI Online Communities, Inc., a Delaware corporation with principal offices at 2165 S. Bascom Avenue, Campbell, California 95008 ("NETTAXI"), and Solutions Media, Inc., dba SpinRecords.com a Delaware Corporation, with offices at 11440 West Barnardo Ct., Suite 170, San Diego, CA 32127 ("SpinRecords.com" or "Client").
+File: EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'edietscom inc', 'womencom networks inc'})
+  Truth     : frozenset({'womencom', 'ediets', 'edietscom inc', 'womencom networks inc'})
+  Raw ext   : ['WOMEN.COM NETWORKS, INC.', 'EDIETS.COM, INC.']
+  Raw truth : "['Women.com', 'eDiets', 'WOMEN.COM NETWORKS, INC.', 'EDIETS.COM, INC.']"
+  Evidence  : by and between WOMEN.COM NETWORKS, INC., a Delaware corporation...and EDIETS.COM, INC., a Delaware corporation...
+File: TheglobeComInc_19990503_S-1A_EX-10.20_5416126_EX-10.20_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'theglobecom inc', 'the boxlot company'})
+  Truth     : frozenset({'theglobecom inc', 'boxlot', 'theglobe', 'the boxlot company'})
+  Raw ext   : ['theglobe.com, Inc.', 'The Boxlot Company']
+  Raw truth : "['The Boxlot Company', 'Boxlot', 'theglobe', 'theglobe.com, Inc.']"
+  Evidence  : This Co-Branding Agreement (the "Agreement") is entered into as of March ___, 1999 (the "Effective Date") by and between theglobe.com, Inc., with its principal place of business at 31 West 21st Street, New York, NY 10010 ("theglobe"), and The Boxlot Company, with its principal place of business at 12626 High Bluff Drive, Suite 370, San Diego, CA 92130 ("Boxlot").
+File: LeadersonlineInc_20000427_S-1A_EX-10.8_4991089_EX-10.8_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'verticalnet inc', 'leadersonline inc'})
+  Truth     : frozenset({'leadersonline', 'verticalnet inc', 'leadersonline inc', 'verticalnet'})
+  Raw ext   : ['VerticalNet, Inc.', 'LeadersOnline, Inc.']
+  Raw truth : '[\'VerticalNet\', \'LeadersOnline\', \'VerticalNet, Inc.\', \'(each a "Party" and together the "Parties").\', \'LeadersOnline, Inc.\']'
+  Evidence  : This Co-Branding Agreement (this "Agreement") dated March 15, 2000 (the "Effective Date") is entered into between VerticalNet, Inc., a Pennsylvania corporation ... and LeadersOnline, Inc. a Delaware corporation ... (each a "Party" and together the "Parties").
+File: MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'lucent technologies inc', 'mphase technologies inc'})
+  Truth     : frozenset({'lucent', 'lucent technologies inc', 'mphase', 'mphase technologies inc', 'each individually a party and collectively the parties'})
+  Raw ext   : ['Lucent Technologies Inc.', 'mPhase Technologies Inc.']
+  Raw truth : '[\'Lucent Technologies Inc.\', \'Lucent\', \'mPhase Technologies Inc.\', \'(each individually, "a Party" and, collectively, "the Parties"}.\', \'mPhase\']'
+  Evidence  : This Agreement is made this 21st day of January 2003 by and between Lucent Technologies Inc., a Delaware corporation having a principal place of business at 600 Mountain Avenue, Murray Hill, New Jersey 07974 ("Lucent") and mPhase Technologies Inc., a New Jersey corporation located at 587 Connecticut Avenue, Norwalk, Connecticut 068545 ("mPhase").
+File: RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'dassault systemes', 'planetcad inc'})
+  Truth     : frozenset({'planetcad', 'dassault systemes', 'andor certain affiliates of dassault systemes', 'planetcad inc'})
+  Raw ext   : ['Dassault Systemes', 'PlanetCAD Inc.']
+  Raw truth : '[\'PlanetCAD Inc. (formerly known as Spatial Technology Inc.)\', \'("Dassault Systemes") and/or certain affiliates of Dassault Systemes,\', \'PlanetCAD\', \'Dassault Systemes\', \'(each a "Party," together, the "Parties").\']'
+  Evidence  : This CO-BRANDING AGREEMENT (this "Agreement") is made as of this November 14, 2000 by and between Dassault Systemes, a societe anonyme organized under the laws of France and the owner of Purchaser ("Dassault Systemes") and/or certain affiliates of Dassault Systemes, and PlanetCAD Inc. (formerly known as Spatial Technology Inc.), a corporation organized under the laws of the State of Delaware ("PlanetCAD").
+File: HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'healthcentralcom inc', 'medialinx interactive lp'})
+  Truth     : frozenset({'medialinx interactive lp', 'mlx', 'hci', 'healthcentralcom inc'})
+  Raw ext   : ['MEDIALINX INTERACTIVE, L.P.', 'HEALTHCENTRAL.COM INC.']
+  Raw truth : "['HEALTHCENTRAL.COM INC.', 'MEDIALINX INTERACTIVE, L.P.', 'MLX', 'HCI']"
+  Evidence  : BETWEEN: MEDIALINX INTERACTIVE, L.P., represented herein by its general partner MediaLinx Interactive Inc. a corporation incorporated under the laws of the Province of Ontario ... - and - HEALTHCENTRAL.COM INC. a corporation incorporated under the laws of the state of California ... (both MLX and HCI to be collectively referred to as the "Parties")
+File: TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'tom online limited', 'skype technologies sa', 'skype communications sa', 'tom online inc', 'telonline limited'})
+  Truth     : frozenset({'tom holding', 'company', 'tom online limited', 'skype holding', 'skype technologies sa', 'skype communications sa', 'online bvi', 'skype online bvi and the company may be referred to individually as party and collectively as parties skype online bvi the company skype holding and tom holding may be referred to individually as party to this agreement and collectively as parties to this agreement', 'telonline limited', 'tom online inc', 'skype'})
+  Raw ext   : ['Skype Communications, S.A.', 'Skype Technologies, S.A.', 'TOM Online (BVI) Limited', 'TOM Online Inc.', 'Tel-Online Limited']
+  Raw truth : '[\'Skype, Online BVI and the Company may be referred to individually as "Party" and collectively as "Parties." Skype, Online BVI, the Company, Skype Holding and Tom Holding may be referred to individually as "party to this Agreement" and collectively as "parties to this Agreement."\', \'Skype\', \'Tel-Online Limited\', \'Online BVI\', \'Skype Technologies, S.A.\', \'TOM Online (BVI) Limited\', \'Skype Communications, S.A.\', \'Tom Holding\', \'Company\', \'TOM Online Inc.\', \'Skype Holding\']'
+  Evidence  : by and among (a) Skype Communications, S.A. ("Skype"), a limited company (société anonyme) incorporated in Luxembourg,... (b) Skype Technologies, S.A. ("Skype Holding"), a limited company (société anonyme) incorporated in Luxembourg,... (c) TOM Online (BVI) Limited ("Online BVI"), a company incorporated in the British Virgin Islands... (d) TOM Online Inc. ("Tom Holding"), a company incorporated in the Cayman Islands... (e) Tel-Online Limited ("Company"), a company incorporated in the Cayman Islands...
+File: MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'musclepharm corporation', 'fitness publications inc', 'marine mp llc', 'arnold schwarzenegger'})
+  Truth     : frozenset({'lender', 'endorser', 'arnold schwarzenegger', 'fitness', 'musclepharm corporation', 'marine mp llc', 'collectively lender endorser and fitness are referred to as the as parties', 'fitness publications inc', 'collectively musclepharm or the company'})
+  Raw ext   : ['Marine MP, LLC', 'Fitness Publications, Inc.', 'MusclePharm Corporation', 'Arnold Schwarzenegger']
+  Raw truth : '[\'Endorser\', \'collectively, Lender, Endorser, and Fitness are referred to as the "AS Parties"\', \'MusclePharm Corporation\', \'Lender\', \'Marine MP, LLC\', \'Arnold Schwarzenegger\', \'Fitness\', \'collectively, "MusclePharm" or the "Company"\', \'Fitness Publications, Inc.\']'
+  Evidence  : This ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT is entered into on July 26, 2013 (the "Effective Date") by and between Marine MP, LLC ("Lender"), for services of Arnold Schwarzenegger ("Endorser"), and Fitness Publications, Inc. ("Fitness") (collectively, Lender, Endorser, and Fitness are referred to as the "AS Parties") and MusclePharm Corporation with its principal place of business in Denver, Colorado and its subsidiaries, (collectively, "MusclePharm" or the "Company").
+File: PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement3  [FN+TP]
+  Extracted : frozenset({'pc quote inc', 'ab watley inc'})
+  Truth     : frozenset({'abw', 'ab watley inc', 'pc quote inc', 'pcq'})
+  Raw ext   : ['PC QUOTE, INC.', 'A.B. Watley, Inc.']
+  Raw truth : "['ABW', 'A.B. Watley, Inc.', 'PC QUOTE, INC.', 'PCQ']"
+  Evidence  : by and between PC QUOTE, INC., with its principal place of business at 300 South Wacker Drive, Chicago, Illinois 60605 ("PCQ") and A.B. Watley, Inc., with its principal place of business at 33 West 17th Street, New York, New York 10011 ("ABW").
+File: NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'verticalnet inc', 'neoformacom inc'})
+  Truth     : frozenset({'verticalnet inc', 'neoforma', 'verticalnet', 'neoformacom inc'})
+  Raw ext   : ['VerticalNet, Inc.', 'Neoforma.com, Inc.']
+  Raw truth : "['VerticalNet, Inc.', 'VerticalNet', 'Neoforma', 'Neoforma.com, Inc.']"
+  Evidence  : This Co-Branding Agreement (this "Agreement") by and between VerticalNet, Inc., a Pennsylvania corporation having a principal place of business at 700 Dresher Road, Suite 100, Horsham, Pennsylvania, PA 19044 ("VerticalNet"), and Neoforma.com, Inc., a Delaware corporation having a principal place of business at 3255-7 Scott Boulevard, Santa Clara, CA 95054 ("Neoforma"), is dated as of November 19, 1999 (the "Effective Date").
+File: EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'united airlines inc', 'snap technologies inc'})
+  Truth     : frozenset({'snap', 'sponsor', 'united airlines inc', 'snap technologies inc'})
+  Raw ext   : ['Snap Technologies, Inc.', 'United Airlines, Inc.']
+  Raw truth : "['Sponsor', 'Snap Technologies, Inc.', 'United Airlines, Inc.', 'Snap']"
+  Evidence  : This Co-Branding Agreement (this "Agreement"), dated as of June 8, 1999, is made by and between Snap Technologies, Inc. a California corporation... and, United Airlines, Inc., a Delaware corporation...
+File: PaperexchangeComInc_20000322_S-1A_EX-10.4_5202103_EX-10.4_Co-Branding Agreement  [FN+TP]
+  Extracted : frozenset({'verticalnet inc', 'paperexchangecom llc'})
+  Truth     : frozenset({'verticalnet inc', 'paperexchange', 'paperexchangecom llc', 'verticalnet'})
+  Raw ext   : ['VerticalNet, Inc.', 'PaperExchange.com, LLC']
+  Raw truth : "['PaperExchange', 'PaperExchange.com, LLC', 'VerticalNet, Inc.', 'VerticalNet']"
+  Evidence  : This Co-Branding Agreement (this "Agreement") dated September 30, 1999 (the "Effective Date") is entered into between VerticalNet, Inc., a Pennsylvania corporation... and PaperExchange.com, LLC, a Delaware limited liability company...
+
+--- renewal_term (12) ---
+File: StampscomInc_20001114_10-Q_EX-10.47_2631630_EX-10.47_Co-Branding Agreement  [FN+FP]
+  Extracted : 'mbe shall have the right to elect by written notice to the company at any time between two (2) and six (6) months prior to the end of such initial term or any subsequent renewal period (as defined below), to notify the company that mbe elects to seek to extend such term for additional two (2)-year periods (each a "renewal period").'
+  Truth     : 'successive 2 years'
+  Raw ext   : 'MBE shall have the right to elect by written notice to the Company at any time between two (2) and six (6) months prior to the end of such initial term or any subsequent Renewal Period (as defined below), to notify the Company that MBE elects to seek to extend such term for additional two (2)-year periods (each a "Renewal Period").'
+  Raw truth : 'successive 2 years'
+  Evidence  : MBE shall have the right to elect by written notice to the Company at any time between two (2) and six (6) months prior to the end of such initial term or any subsequent Renewal Period (as defined below), to notify the Company that MBE elects to seek to extend such term for additional two (2)-year periods (each a "Renewal Period").
+File: 2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement  [FN+FP]
+  Extracted : 'this agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this agreement.'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement.'
+  Raw truth : 'Successive 1 year'
+  Evidence  : This Agreement may be renewed for any number of successive one (1) year terms by mutual written agreement of the parties prior to the conclusion of the term of this Agreement.
+File: IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement  [FP]
+  Extracted : 'the parties must mutually agree in writing to extend the term for additional periods of time.'
+  Truth     : ''
+  Raw ext   : 'the parties must mutually agree in writing to extend the term for additional periods of time.'
+  Raw truth : nan
+  Evidence  : thereafter, the parties must mutually agree in writing to extend the term for additional periods of time.
+File: ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement  [FP]
+  Extracted : 'the term of this agreement shall begin on the effective date and shall end fifteen months therefrom.'
+  Truth     : ''
+  Raw ext   : 'The Term of this Agreement shall begin on the Effective Date and shall end fifteen months therefrom.'
+  Raw truth : nan
+  Evidence  : The Term of this Agreement shall begin on the Effective Date and shall end fifteen months therefrom.
+File: RaeSystemsInc_20001114_10-Q_EX-10.57_2631790_EX-10.57_Co-Branding Agreement  [FN+FP]
+  Extracted : 'this agreement shall remain in force for a period of one (1) year, and shall be automatically renewed for successive periods of one (1) year unless otherwise terminated as provided herein.'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'This Agreement shall remain in force for a period of one (1) year, and shall be automatically renewed for successive periods of one (1) year unless otherwise terminated as provided herein.'
+  Raw truth : 'successive 1 year'
+  Evidence  : This Agreement shall be effective upon the Effective Date and shall remain in force for a period of one (1) year, and shall be automatically renewed for successive periods of one (1) year unless otherwise terminated as provided herein.
+File: EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement  [FN+FP]
+  Extracted : 'this agreement shall automatically renew for additional successive terms of twelve (12) months each at the end of the initial term ("renewal terms")...'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'This agreement shall automatically renew for additional successive terms of twelve (12) months each at the end of the Initial Term ("Renewal Terms")...'
+  Raw truth : 'successive 1 year'
+  Evidence  : This agreement shall automatically renew for additional successive terms of twelve (12) months each at the end of the Initial Term ("Renewal Terms")...
+File: MphaseTechnologiesInc_20030911_10-K_EX-10.15_1560667_EX-10.15_Co-Branding Agreement  [FN+FP]
+  Extracted : 'mphase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of lucent, which written consent shall not be unreasonably withheld.'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent shall not be unreasonably withheld.'
+  Raw truth : 'successive 1 year'
+  Evidence  : mPhase shall have the right to annually renew this agreement for a period of one year upon each annual expiration with the written consent of Lucent, which written consent shall not be unreasonably withheld.
+File: RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement  [FN+FP]
+  Extracted : 'the agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term.'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term.'
+  Raw truth : 'successive 1 year'
+  Evidence  : The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term.
+File: TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement  [FN+FP]
+  Extracted : 'this agreement shall automatically continue following the initial term, for an additional period of three (3) years'
+  Truth     : '3 years'
+  Raw ext   : 'this Agreement shall automatically continue following the Initial Term, for an additional period of three (3) years'
+  Raw truth : '3 years'
+  Evidence  : This Agreement shall automatically continue following the Initial Term, for an additional period of three (3) years, unless a party to this Agreement provides written notice of termination to the other parties at least sixty (60) days prior to the expiration of the Initial Term or this Agreement.
+File: MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement  [FN+FP]
+  Extracted : 'in the event that musclepharm shall achieve net sales (as defined below) of $20 million (the "first renewal threshold") in the aggregate during the third contract year, then this agreement shall automatically be renewed for an additional term of three (3) years (the "first additional term") on the same terms and conditions for the initial term except that...'
+  Truth     : '7/22/2019; 7/22/2022'
+  Raw ext   : 'In the event that MusclePharm shall achieve Net Sales (as defined below) of $20 million (the "First Renewal Threshold") in the aggregate during the Third Contract Year, then this Agreement shall automatically be renewed for an additional term of three (3) years (the "First Additional Term") on the same terms and conditions for the Initial Term except that...'
+  Raw truth : '7/22/2019; 7/22/2022'
+  Evidence  : If this Agreement is renewed for the First Additional Term, then the First Additional Term shall commence on July 23, 2016, and the Agreement shall expire and terminate automatically without further notice on July 22, 2019.
+File: NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement  [FN+FP]
+  Extracted : 'this agreement will automatically renew at the end of the initial term or a subsequent renewal term on a year to year basis (each, a "renewal term"), unless either party notifies the other at least 30 days prior to the end of the initial term or then current renewal term, as applicable, of its intention not to renew this agreement (a "termination notice").'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a "Renewal Term"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a "Termination Notice").'
+  Raw truth : 'successive 1 year'
+  Evidence  : This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a "Renewal Term"), unless either Party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement (a "Termination Notice").
+File: PaperexchangeComInc_20000322_S-1A_EX-10.4_5202103_EX-10.4_Co-Branding Agreement  [FN+FP]
+  Extracted : 'this agreement will automatically renew at the end of the initial term or a subsequent renewal term on a year to year basis (each, a "renewal term"), unless either party notifies the other at least 30 days prior to the end of the initial term or then current renewal term, as applicable, of its intention not to renew this agreement.'
+  Truth     : 'successive 1 year'
+  Raw ext   : 'This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a "Renewal Term"), unless either party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement.'
+  Raw truth : 'successive 1 year'
+  Evidence  : This Agreement will automatically renew at the end of the Initial Term or a subsequent renewal term on a year to year basis (each, a "Renewal Term"), unless either party notifies the other at least 30 days prior to the end of the Initial Term or then current Renewal Term, as applicable, of its intention not to renew this Agreement.

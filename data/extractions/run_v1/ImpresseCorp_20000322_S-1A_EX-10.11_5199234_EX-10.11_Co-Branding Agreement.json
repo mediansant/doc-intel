@@ -1,0 +1,17 @@
+{
+  "governing_law": "Delaware",
+  "governing_law_evidence": "This Agreement shall be governed by and interpreted under the laws of the State of Delaware without regard to its conflicts of law provisions.",
+  "parties": [
+    "VerticalNet, Inc.",
+    "Impresse Corporation"
+  ],
+  "parties_evidence": "This Co-Branding Agreement (this \"Agreement\") dated March 3, 2000 (the \"Effective Date\") is entered into between VerticalNet, Inc., a Pennsylvania corporation... and Impresse Corporation, a California Corporation...",
+  "agreement_date": "2000-03-03",
+  "agreement_date_evidence": "This Co-Branding Agreement (this \"Agreement\") dated March 3, 2000 (the \"Effective Date\") is entered into...",
+  "renewal_term": "The Term of this Agreement shall begin on the Effective Date and shall end fifteen months therefrom.",
+  "renewal_term_evidence": "The Term of this Agreement shall begin on the Effective Date and shall end fifteen months therefrom.",
+  "cap_on_liability": false,
+  "cap_on_liability_evidence": null,
+  "non_compete": false,
+  "non_compete_evidence": null
+}
